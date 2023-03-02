@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+
+}
+
+
+nav img {
+    width: 50px;
+    margin-top: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    list-style: none;
+    align-items: center;
+    margin-left: 90px;
+
+}
+
+nav ul li {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #8f1e20;
+}
+
+nav ul li:hover {
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #93763e;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d6ecfa;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+#div1 {
+    position: relative;
+    background-image: url(proje.jpg);
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: right;
+
+
+}
+
+h1 {
+    position: absolute;
+    font-size: 80px;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 6px 6px 20px #8f1e20;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 4px;
+    color: #93763e;
+    z-index: 3;
+}
+
+p {
+    color: #93763e;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 6px 6px 20px #8f1e20;
+    margin-top: 40px;
+    letter-spacing: 4px;
+
+    /* font-family: 'Rajdhani', sans-serif; */
+
+    /* position: absolute; */
+    /* bottom: 150px; */
+    /* left: 50px; */
+}
+
+#div1 div {
+    width: 300px;
+    position: absolute;
+    top: 165px;
+    left: 70px;
+}
+
+#div1 img {
+    width: 100%;
+
+}
+
+footer p {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+
+@media (max-width:768px) {
+    #div1 div {
+        display: none;
+        /* visibility: hidden; */
+
+    }
+
+    h1 {
+        font-size: 60px;
+        top: 48%;
+        left: 60%;
+        text-shadow: 6px 6px 6px #d6ecfa;
+        font-family: 'Kanit', sans-serif;
+        letter-spacing: 2px;
+        color: #8f1e20;
+    }
+
+    nav ul li {
+        padding: 5px;
+        background-color: #93763e;
+        font-size: 15px;
+    }
+
+    nav ul li:hover {
+        padding: 6px;
+        background-color: #8f1e20;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* font-family: 'Anton', sans-serif; */
+/* font-family: 'Rajdhani', sans-serif;  */
